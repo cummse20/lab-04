@@ -34,6 +34,6 @@ To clone a remote repository, follow these steps:
 
 ### Assessing progress
 
-I've never used Git or Github before this, so I think that many of the challenges I experienced were more about this being a new process. It's not actually that hard to figure out, but it is weird at first, especially after doing the first few labs a different way. It makes sense, though, why we use github for research and projects. 
+I've never used Git or Github before this, so I think that many of the challenges I experienced were more about this being a new process. It's not actually that hard to figure out, but it is weird at first, especially after doing the first few labs a different way. It makes sense, though, why we use github for research and projects. We have changed the set up so many times on the M1 chip mac that my tokens werent working and when I am tryint to push or commit my changes, I have been getting an error saying that there is actually no directory that exists. 
 
 I am interested in the formatting and how we can write code that changes the output on the rendered document. I looked at [this link](https://quarto.org/docs/authoring/markdown-basics.html) to get ideas about how to make my list, but I ended up just going with a regular numbered list. 
