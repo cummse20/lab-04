@@ -4,23 +4,36 @@ author: "Shannon Cummings"
 format: html
 ---
 
-## Quarto
+### Reproducible research
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+#### When we say "reproducible research", what do we mean?
 
-## Running Code
+Reproducible research has been carefully scaffold and documented so that each step can be understood as clear instructions for future researchers who might want to replicate the study. It is also important for yourself to be able to look back on the data or steps and underatand your interpretations.
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+#### What is the difference between the "computing environment" and the "project structure"?
 
-```{r}
-1 + 1
-```
+According to [Recipe 4](https://qtalr.github.io/qtalrkit/articles/recipe-4.html?q=computing%20environment#summary) the computing environment is the "hardware, operating system, and software" that we work within and the project structure is how we organize the project's files and folders. 
 
-You can add options to executable code like this 
+#### How does Git and GitHub support reproducible research practices?
 
-```{r}
-#| echo: false
-2 * 2
-```
+You can use Git to track changes to your project repository. Not only can you track changes, but you can also revert to previous versions ig you make mistakes , or make copies of the file to edit and make changes on a parallel document without changing the original. Github is a cloud-based repository where you can store and track multiple projects. You can also download other people's public repositories for your own project. 
 
-The `echo: false` option disables the printing of code (only output is displayed).
+This is supports reproducible research becuase at every stage, you document the changes and submit them to the repository, allowing others to follow along with your progress and see your thought process throughout the project. 
+
+### Project management
+
+To clone a remote repository, follow these steps:
+
+1. Find a public remote repository
+2. Copy and clone the URL
+3. Open RStudio
+4. Create a new project from Git version control
+5. Paste the cloned URL in the repository URL field
+6. Choose where the project will be saved
+7. Rename the project directory
+
+### Assessing progress
+
+I've never used Git or Github before this, so I think that many of the challenges I experienced were more about this being a new process. It's not actually that hard to figure out, but it is weird at first, especially after doing the first few labs a different way. It makes sense, though, why we use github for research and projects. 
+
+I am interested in the formatting and how we can write code that changes the output on the rendered document. I looked at [this link](https://quarto.org/docs/authoring/markdown-basics.html) to get ideas about how to make my list, but I ended up just going with a regular numbered list. 
